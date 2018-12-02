@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby -wKU
 
 lines = Array.new
-counts = Hash.new { |hash, key| hash[key] = 0 }
+counts = Hash.new 0
 
 open('input.txt', 'r') { |io|
   io.each_line { |l| lines << l.to_i }
