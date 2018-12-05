@@ -1,5 +1,4 @@
-import qualified Data.Map as M
-import           System.IO
+import System.IO
 
 reverse' :: [a] -> [a]
 reverse' xs = go xs []
