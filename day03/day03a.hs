@@ -1,7 +1,6 @@
 import qualified Data.Either                   as E
 import qualified Text.ParserCombinators.Parsec as P
 import qualified System.IO                     as IO
-import Debug.Trace
 
 data Input = Input { id :: String, coords :: (Int, Int), size :: (Int, Int) }
   deriving (Show)
